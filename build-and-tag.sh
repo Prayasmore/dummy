@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Ensure we're on the main branch
 if [[ $(git rev-parse --abbrev-ref HEAD) != "main" ]]; then
     echo "Error: Please run this script from the main branch"
@@ -16,8 +18,8 @@ npm run build
 # Stage all changes
 git add .
 
-# Create a merge commit
-git commit --allow-empty -m "Merge feature branch and bump version to $NEW_VERSION"
+# Create a commit
+git commit -m "Feature: Update to version $NEW_VERSION"
 
 # Tag the commit
 git tag v$NEW_VERSION
