@@ -5,5 +5,6 @@ import Anchor from './Anchor';
 import OL from './OL';
 import Iframe from './Iframe';
 import Paragraph from './Paragraph';
+import Strong from './Strong';
 
-export { Button, Input, Image, Anchor, OL, Iframe, Paragraph };
+export { Button, Input, Image, Anchor, OL, Iframe, Paragraph, Strong };
