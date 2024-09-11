@@ -6,5 +6,6 @@ import OL from './OL';
 import Iframe from './Iframe';
 import Paragraph from './Paragraph';
 import Strong from './Strong';
+import Italic from './Italic';
 
-export { Button, Input, Image, Anchor, OL, Iframe, Paragraph, Strong };
+export { Button, Input, Image, Anchor, OL, Iframe, Paragraph, Strong, Italic };
